@@ -1,0 +1,11 @@
+---
+- name: Installing epel-release package
+  yum: 
+    name: epel-release
+
+    state: present
+
+- name: Installing IUS repo
+  yum: 
+    name: https://repo.ius.io/ius-release-el7.rpm
+    state: present
