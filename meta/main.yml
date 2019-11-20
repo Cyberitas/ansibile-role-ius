@@ -1,5 +1,6 @@
 galaxy_info:
   author: James Dugger
+  role_name: ius-repository
   description: Ansible role to isntall IUS repository on RHEL/CentOS
   company: Cyberitas Technologies, LLC
   license: license (MIT)
